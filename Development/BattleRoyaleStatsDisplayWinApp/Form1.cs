@@ -41,8 +41,7 @@ namespace BattleRoyaleStatsDisplayWinApp
             timer.Start();
         }
 
-
-        private void btnUpdateAPI_Click(object sender, EventArgs e)
+        private void RetreiveData()
         {
             using (WebClient client = new WebClient())
             {
@@ -56,14 +55,22 @@ namespace BattleRoyaleStatsDisplayWinApp
                 if (!Directory.Exists(statsFolder))
                     Directory.CreateDirectory(statsFolder);
 
+                int kills = response.kills;
+                int wins = response.wins;
+                int losses = response.losses;
+                decimal killspergame = Math.Round(decimal.Divide(kills,(wins + losses)),2);
+                decimal winpercentage = Math.Round(decimal.Divide(wins, (wins + losses)), 2);
+
                 File.WriteAllText(statsFolder + "/global_rank.txt", response.global_rank.ToString());
-                File.WriteAllText(statsFolder + "/kills.txt", response.kills.ToString());
+                File.WriteAllText(statsFolder + "/kills.txt", kills.ToString());
                 File.WriteAllText(statsFolder + "/win_points.txt", response.win_points.ToString());
                 File.WriteAllText(statsFolder + "/kill_points.txt", response.kill_points.ToString());
                 File.WriteAllText(statsFolder + "/total_points.txt", response.total_points.ToString());
                 File.WriteAllText(statsFolder + "/rank_name.txt", response.rank_name.ToString());
-                File.WriteAllText(statsFolder + "/wins.txt", response.wins.ToString());
-                File.WriteAllText(statsFolder + "/losses.txt", response.losses.ToString());
+                File.WriteAllText(statsFolder + "/wins.txt", wins.ToString());
+                File.WriteAllText(statsFolder + "/losses.txt", losses.ToString());
+                File.WriteAllText(statsFolder + "/kills_per_game.txt", killspergame.ToString());
+                File.WriteAllText(statsFolder + "/win_percentage.txt", winpercentage.ToString());
 
                 //write data out to show on app
                 txtName.Text = response.name;
@@ -75,16 +82,35 @@ namespace BattleRoyaleStatsDisplayWinApp
                 txtTotalPoints.Text = response.total_points;
                 txtGlobalRank.Text = response.global_rank;
                 txtRankName.Text = response.rank_name;
+                txtWinPercentage.Text = winpercentage.ToString();
+                txtKillsPerGame.Text = killspergame.ToString();
+
 
                 timer.Interval = Convert.ToInt32(txtRefreshRate.Text) * 60000;
+            }
+        }
 
+        private void btnUpdateAPI_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(txtSteamID.Text))
+            {
+                RetreiveData();                
             }
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnToggleStats_Click(object sender, EventArgs e)
         {
-
-        }
+            if (pnlStats.Visible)
+            {
+                btnToggleStats.Text = "Show Stats";
+                pnlStats.Visible = false;
+            }
+            else
+            {
+                btnToggleStats.Text = "Hide Stats";
+                pnlStats.Visible = true;
+            }
+        }        
     }
 }
