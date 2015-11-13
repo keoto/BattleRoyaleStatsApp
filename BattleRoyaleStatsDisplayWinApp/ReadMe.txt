@@ -8,3 +8,6 @@
 -Insert SteamID into checkbox and determine your refresh rate.
 -Data will refresh based upon refresh rate or button click (button click will reset timer of auto refresh).
 -Txt files are saved in your MyDocuments inside the BattleRoyaleStatFiles folder.
+
+3. Github Source Code
+-https://github.com/keoto/BattleRoyaleStatsApp

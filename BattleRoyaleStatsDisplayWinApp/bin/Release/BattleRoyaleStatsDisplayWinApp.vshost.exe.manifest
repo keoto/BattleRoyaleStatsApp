@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="85984">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="90080">
       <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KAlF7jdIzV1w0W5VR9sErV9aUEC+Jd4+BgSpy8toeOc=</dsig:DigestValue>
+        <dsig:DigestValue>cXDbtQFrBp+xnxzl6pRX2vOmhOU8UzgNG5sjw2fNYeM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
