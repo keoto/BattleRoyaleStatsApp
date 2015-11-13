@@ -138,7 +138,7 @@ namespace BattleRoyaleStatsDisplayWinApp
                     
 
                     File.WriteAllText(statsFolder + "/global_rank.txt", strGlobalRank);
-                    File.WriteAllText(statsFolder + "/kills.txt", "Kills: " + strKills);
+                    File.WriteAllText(statsFolder + "/kills.txt", strKills);
                     File.WriteAllText(statsFolder + "/win_points.txt", strWinPoints);
                     File.WriteAllText(statsFolder + "/kill_points.txt", strKillPoints);
                     File.WriteAllText(statsFolder + "/total_points.txt", strTotalPoints);
