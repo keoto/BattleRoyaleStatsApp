@@ -120,8 +120,8 @@ namespace BattleRoyaleStatsDisplayWinApp
 
                     if (chkIncludeLabels.Checked)
                     {
-                        strTop5Guns = "Top 5 Guns by Kill:" + strTop5Guns;
-                        strTop5Distance = "Top 5 Kills by Distance:" + strTop5Distance;
+                        strTop5Guns = "Top 5 Guns by Kill: " + strTop5Guns;
+                        strTop5Distance = "Top 5 Kills by Distance: " + strTop5Distance;
 
                         strKills = "Kills: " + strKills;
                         strWins = "Wins: " + strWins;
