@@ -87,13 +87,13 @@ namespace BattleRoyaleStatsDisplayWinApp
                     iWins = response.wins;
                     iLosses = response.losses;
                     dKillsPerRound = Math.Round(decimal.Divide(iKills, (iWins + iLosses)), 2);
-                    dWinPercentage = Math.Round(decimal.Divide(iWins, (iWins + iLosses)), 2);
+                    dWinPercentage = Math.Round(decimal.Divide(iWins, (iWins + iLosses)) * 100, 2);
 
                     strKills = iKills.ToString();
                     strWins = iWins.ToString();
                     strLosses = iLosses.ToString();
                     strKillsPerRound = Math.Round(decimal.Divide(iKills, (iWins + iLosses)), 2).ToString();
-                    strWinPercentage = Math.Round(decimal.Divide(iWins, (iWins + iLosses)), 2).ToString();
+                    strWinPercentage = dWinPercentage.ToString();
                     strGlobalRank = response.global_rank;
                     strWinPoints = response.win_points;
                     strKillPoints = response.kill_points;
