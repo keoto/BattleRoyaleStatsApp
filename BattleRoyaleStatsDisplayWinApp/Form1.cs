@@ -188,12 +188,12 @@ namespace BattleRoyaleStatsDisplayWinApp
         {
             if (pnlStats.Visible)
             {
-                btnToggleStats.Text = "Show Stats";
+                btnToggleStats.Text = "SHOW STATS";
                 pnlStats.Visible = false;
             }
             else
             {
-                btnToggleStats.Text = "Hide Stats";
+                btnToggleStats.Text = "HIDE STATS";
                 pnlStats.Visible = true;
             }
         }

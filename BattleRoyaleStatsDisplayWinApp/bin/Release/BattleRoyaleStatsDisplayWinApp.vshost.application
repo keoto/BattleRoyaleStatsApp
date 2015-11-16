@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="BattleRoyaleStatsDisplayWinApp.exe.manifest" size="4660">
+    <dependentAssembly dependencyType="install" codebase="BattleRoyaleStatsDisplayWinApp.exe.manifest" size="5067">
       <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>20WsO6n4fTgjL67TKTNJWgz1s5LdzHe7H6pCrczO5Cg=</dsig:DigestValue>
+        <dsig:DigestValue>uB4EePJLoDi2PVZoQn6SkmkuWXjF3TpGFzf5yNLZdtw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

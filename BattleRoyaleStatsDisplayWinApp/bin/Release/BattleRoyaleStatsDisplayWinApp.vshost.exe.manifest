@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="90080">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="466912">
       <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NG7ltMDTC9VmiRHy4WGCfp9y0Kgep0LBlwkGuUo2BIE=</dsig:DigestValue>
+        <dsig:DigestValue>8szRDaLBef4MKe6IqUyYiHTNvCHD6l4QHuBqei8RTJU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -81,6 +81,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>i1iHqzbZwHp45i+JPTqeHHvaP8Q2Vl+B51ZdPCiZA4w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\br-stats-logo.png" size="71056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>arJFCxJuhMr/JzKcZR8sjCSfr2eP+ZxiO+PCs2CGq3I=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

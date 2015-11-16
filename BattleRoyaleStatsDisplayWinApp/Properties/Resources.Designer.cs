@@ -59,5 +59,15 @@ namespace BattleRoyaleStatsDisplayWinApp.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap br_stats_logo {
+            get {
+                object obj = ResourceManager.GetObject("br-stats-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

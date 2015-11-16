@@ -130,10 +130,12 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pubr2.png" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="Resources\br-stats-logo.png" />
+    <None Include="Resources\br-stats-logo1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ReadMe.txt" />
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
