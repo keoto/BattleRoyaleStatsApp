@@ -6,6 +6,7 @@ using System.IO;
 using Microsoft.VisualBasic;
 using System.Xml;
 using Newtonsoft.Json.Linq;
+using System.Drawing;
 
 
 namespace BattleRoyaleStatsDisplayWinApp
@@ -34,7 +35,13 @@ namespace BattleRoyaleStatsDisplayWinApp
                     chkIncludeLabels.Checked = Convert.ToBoolean(xmlDoc.SelectSingleNode("xml/labels").InnerText);
             }
             InitTimer();
-
+            
+            var pos = this.PointToScreen(chkIncludeLabels.Location);
+            pos = pbLogo.PointToClient(pos);
+            chkIncludeLabels.Parent = pbLogo;
+            chkIncludeLabels.Location = pos;
+            chkIncludeLabels.BackColor = Color.Transparent;
+            
         }
 
         private Timer timer;
@@ -104,7 +111,7 @@ namespace BattleRoyaleStatsDisplayWinApp
                     JArray jarrGuns = JArray.Parse(response.top_5_guns.ToString());
                     foreach (var item in jarrGuns.Children())
                     {
-                        strTop5Guns += String.Format("{0} : {1} -  ", item.SelectToken("gun").ToString(), item.SelectToken("count").ToString());
+                        strTop5Guns += String.Format("{0} : {1}  -  ", item.SelectToken("gun").ToString(), item.SelectToken("count").ToString());
                     }
                     strTop5Guns = strTop5Guns.Substring(0, strTop5Guns.Length - 3);
                     // Kills Per Distance
@@ -163,8 +170,8 @@ namespace BattleRoyaleStatsDisplayWinApp
                     txtRankName.Text = response.rank_name;
                     txtWinPercentage.Text = dWinPercentage.ToString();
                     txtKillsPerGame.Text = dKillsPerRound.ToString();
-                    txtKillsPerGun.Text = strTop5Guns;
-                    txtKillsPerDistance.Text = strTop5Distance;
+                    txtKillsPerGun.Text = strTop5Guns.Replace("  -  ", Environment.NewLine);
+                    txtKillsPerDistance.Text = strTop5Distance.Replace("  -  ", Environment.NewLine);
 
                     timer.Interval = Convert.ToInt32(txtRefreshRate.Text) * 60000;
                 }
@@ -190,12 +197,48 @@ namespace BattleRoyaleStatsDisplayWinApp
             {
                 btnToggleStats.Text = "SHOW STATS";
                 pnlStats.Visible = false;
+                btnToggleStats.Location = new Point(btnToggleStats.Location.X, chkIncludeLabels.Location.Y - 15);
             }
             else
             {
                 btnToggleStats.Text = "HIDE STATS";
                 pnlStats.Visible = true;
+                btnToggleStats.Location = new Point(btnToggleStats.Location.X, pnlStats.Location.Y + 410);
             }
+        }
+
+        private void ButtonHover(Button btn)
+        {
+            btn.BackColor = ColorTranslator.FromHtml("#5d0101");
+            btn.ForeColor = Color.White;
+            
+        }
+
+        private void ButtonLeave(Button btn)
+        {
+
+            btn.BackColor = SystemColors.Control;
+            btn.ForeColor = ColorTranslator.FromHtml("#5d0101");
+        }
+
+        private void btnToggleStats_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonLeave(btnToggleStats);
+        }
+
+        private void btnToggleStats_MouseEnter(object sender, EventArgs e)
+        {
+            ButtonHover(btnToggleStats);
+        }
+
+        private void btnUpdateAPI_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonLeave(btnUpdateAPI);
+        }
+
+        private void btnUpdateAPI_MouseEnter(object sender, EventArgs e)
+        {
+            ButtonHover(btnUpdateAPI);
         }
     }
 }
