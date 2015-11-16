@@ -126,6 +126,8 @@
             this.txtSteamID.Name = "txtSteamID";
             this.txtSteamID.Size = new System.Drawing.Size(210, 27);
             this.txtSteamID.TabIndex = 4;
+            this.txtSteamID.TextChanged += new System.EventHandler(this.txtSteamID_TextChanged);
+            this.txtSteamID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSteamID_KeyPress);
             // 
             // label3
             // 
@@ -498,8 +500,8 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;

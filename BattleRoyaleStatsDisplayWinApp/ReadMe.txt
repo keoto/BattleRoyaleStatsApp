@@ -11,3 +11,10 @@
 
 3. Github Source Code
 -https://github.com/keoto/BattleRoyaleStatsApp
+
+
+
+Version
+Current
+1.01	- Better Error handling
+1.0		- Initial Release of App

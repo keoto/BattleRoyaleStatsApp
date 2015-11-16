@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="468960">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="470496">
       <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A6OLTefr/GoiZIts2ZoR2+RGMFWMNnEn6ttbXKiP/UA=</dsig:DigestValue>
+        <dsig:DigestValue>BrkmTgR+uFBdqrjD5ny9kS6gCXtRlPNkeMd1oxy5HMI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -74,13 +74,13 @@
       <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ReadMe.txt" size="614">
+  <file name="ReadMe.txt" size="699">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>i1iHqzbZwHp45i+JPTqeHHvaP8Q2Vl+B51ZdPCiZA4w=</dsig:DigestValue>
+      <dsig:DigestValue>B9gqkXw9UAURhjF3LnI4t0vKvxILB6Vf/OkGzwg4hJo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\br-stats-logo.png" size="71056">
