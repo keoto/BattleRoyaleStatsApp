@@ -10,3 +10,4 @@ C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWin
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.application
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.exe
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.pdb
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.csprojResolveAssemblyReference.cache
