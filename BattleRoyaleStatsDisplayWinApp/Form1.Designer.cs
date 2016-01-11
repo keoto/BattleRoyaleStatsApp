@@ -1,4 +1,4 @@
-﻿namespace BattleRoyaleStatsDisplayWinApp
+﻿namespace BattleRoyaleStatsApp
 {
     partial class Form1
     {
@@ -68,6 +68,7 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.btnRegular = new System.Windows.Forms.Button();
             this.btnHardcore = new System.Windows.Forms.Button();
+            this.btnOpenFiles = new System.Windows.Forms.Button();
             this.pnlStats.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
@@ -361,7 +362,6 @@
             this.pnlStats.Name = "pnlStats";
             this.pnlStats.Size = new System.Drawing.Size(562, 388);
             this.pnlStats.TabIndex = 26;
-            this.pnlStats.Visible = false;
             // 
             // txtRankName
             // 
@@ -459,7 +459,6 @@
             this.btnToggleStats.TabIndex = 27;
             this.btnToggleStats.Text = "HIDE STATS";
             this.btnToggleStats.UseVisualStyleBackColor = false;
-            this.btnToggleStats.Visible = false;
             this.btnToggleStats.Click += new System.EventHandler(this.btnToggleStats_Click);
             this.btnToggleStats.MouseEnter += new System.EventHandler(this.btnToggleStats_MouseEnter);
             this.btnToggleStats.MouseLeave += new System.EventHandler(this.btnToggleStats_MouseLeave);
@@ -510,7 +509,6 @@
             this.btnRegular.TabIndex = 52;
             this.btnRegular.Text = "REGULAR";
             this.btnRegular.UseVisualStyleBackColor = false;
-            this.btnRegular.Visible = false;
             this.btnRegular.Click += new System.EventHandler(this.btnRegular_Click);
             // 
             // btnHardcore
@@ -524,8 +522,20 @@
             this.btnHardcore.TabIndex = 53;
             this.btnHardcore.Text = "HARDCORE";
             this.btnHardcore.UseVisualStyleBackColor = false;
-            this.btnHardcore.Visible = false;
             this.btnHardcore.Click += new System.EventHandler(this.btnHardcore_Click);
+            // 
+            // btnOpenFiles
+            // 
+            this.btnOpenFiles.BackColor = System.Drawing.SystemColors.Control;
+            this.btnOpenFiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOpenFiles.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOpenFiles.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenFiles.Image")));
+            this.btnOpenFiles.Location = new System.Drawing.Point(352, 322);
+            this.btnOpenFiles.Name = "btnOpenFiles";
+            this.btnOpenFiles.Size = new System.Drawing.Size(43, 30);
+            this.btnOpenFiles.TabIndex = 54;
+            this.btnOpenFiles.UseVisualStyleBackColor = false;
+            this.btnOpenFiles.Click += new System.EventHandler(this.btnOpenFiles_Click);
             // 
             // Form1
             // 
@@ -535,6 +545,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(606, 874);
+            this.Controls.Add(this.btnOpenFiles);
             this.Controls.Add(this.btnHardcore);
             this.Controls.Add(this.btnRegular);
             this.Controls.Add(this.txtRefreshRate);
@@ -553,7 +564,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(0, 0, 0, 15);
-            this.Text = "Battle Royale Stats By Keoto v1.1";
+            this.Text = "Battle Royale Stats By Keoto v1.2";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlStats.ResumeLayout(false);
             this.pnlStats.PerformLayout();
@@ -604,6 +615,7 @@
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.Button btnRegular;
         private System.Windows.Forms.Button btnHardcore;
+        private System.Windows.Forms.Button btnOpenFiles;
     }
 }
 

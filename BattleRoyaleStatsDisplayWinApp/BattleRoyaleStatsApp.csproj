@@ -7,8 +7,8 @@
     <ProjectGuid>{2F00D9D6-1FE3-4FD6-A5FB-EA574E68BB32}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BattleRoyaleStatsDisplayWinApp</RootNamespace>
-    <AssemblyName>BattleRoyaleStatsDisplayWinApp</AssemblyName>
+    <RootNamespace>BattleRoyaleStatsApp</RootNamespace>
+    <AssemblyName>BattleRoyaleStatsApp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -62,10 +62,13 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -80,6 +83,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\StatsClass.cs" />
     <Compile Include="App_Code\XMLData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -130,6 +134,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="NewtonsoftJson.dll" />
     <Content Include="ReadMe.txt" />
     <Content Include="Resources\br-stats-logo.png" />
     <None Include="Resources\br-stats-logo1.png" />

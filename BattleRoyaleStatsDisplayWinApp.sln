@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleRoyaleStatsDisplayWinApp", "BattleRoyaleStatsDisplayWinApp\BattleRoyaleStatsDisplayWinApp.csproj", "{2F00D9D6-1FE3-4FD6-A5FB-EA574E68BB32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleRoyaleStatsApp", "BattleRoyaleStatsDisplayWinApp\BattleRoyaleStatsApp.csproj", "{2F00D9D6-1FE3-4FD6-A5FB-EA574E68BB32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

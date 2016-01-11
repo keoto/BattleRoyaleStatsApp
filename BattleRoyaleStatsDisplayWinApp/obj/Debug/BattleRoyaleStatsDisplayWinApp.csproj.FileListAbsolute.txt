@@ -36,7 +36,6 @@ C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWin
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Debug\BattleRoyaleStatsDisplayWinApp.exe
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Debug\BattleRoyaleStatsDisplayWinApp.pdb
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Debug\Newtonsoft.Json.dll
-C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Debug\Newtonsoft.Json.xml
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Debug\BattleRoyaleStatsDisplayWinApp.csprojResolveAssemblyReference.cache
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Debug\BattleRoyaleStatsDisplayWinApp.Form1.resources
 C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Debug\BattleRoyaleStatsDisplayWinApp.Properties.Resources.resources

@@ -1,0 +1,12 @@
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Release\BattleRoyaleStatsApp.exe.config
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Release\BattleRoyaleStatsApp.exe.manifest
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Release\BattleRoyaleStatsApp.application
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Release\BattleRoyaleStatsApp.exe
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\bin\Release\BattleRoyaleStatsApp.pdb
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.Form1.resources
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.Properties.Resources.resources
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.csproj.GenerateResource.Cache
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.exe.manifest
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.application
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.exe
+C:\Users\chuck\Documents\GitHub\BattleRoyaleStatsApp\BattleRoyaleStatsDisplayWinApp\obj\Release\BattleRoyaleStatsApp.pdb
